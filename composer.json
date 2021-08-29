@@ -1,0 +1,21 @@
+{
+    "name": "eminazeroglu/movie",
+    "description": "Muxtelif film saytlarindan filmleri cekmek ucun hazirlanmis kitabxanadir",
+    "type": "library",
+    "require": {
+        "eminazeroglu/bot": "v1.0.4"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Eminazeroglu\\Movie\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "eminazeroglu",
+            "email": "azeroglu.emin05@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}

@@ -1,0 +1,32 @@
+{
+    "name": "eminazeroglu/bot",
+    "description": "Bot gondermek ucun yazilmis kitabxanadir.",
+    "keywords": ["bot", "service"],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Azeroglu\\Bot\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "eminazeroglu",
+            "email": "azeroglu.emin05@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "paquettg/php-html-parser": "^2.2"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Azeroglu\\Bot\\BotServiceProvider"
+            ],
+            "aliases": {
+                "Bot": "Azeroglu\\Bot\\Facades\\Telegram"
+            }
+        }
+    }
+}
